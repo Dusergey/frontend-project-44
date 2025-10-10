@@ -1,2 +1,2 @@
 #!/bin/sh
-node /project/bin/brain-progression.js
+node "$(dirname "$0")/brain-progression.js"
