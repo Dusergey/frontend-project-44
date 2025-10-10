@@ -17,7 +17,9 @@ parserOptions:
 rules:
   no-console: 0
   no-extra-semi: 0
-  "@stylistic/semi": [error, never]
+  semi: 0
+  "@stylistic/semi": off
+  "@stylistic/no-extra-semi": off
   import/extensions: # FIXME: remove when rule will be adjusted for new nodejs version
     - error
     - ignorePackages
