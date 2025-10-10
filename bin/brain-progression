@@ -1,0 +1,2 @@
+#!/bin/sh
+node /project/bin/brain-progression.js
