@@ -2,7 +2,7 @@ import launchGame from '../index.js'
 import getRandomNumber from '../random.js'
 
 // Число четное?
-const isEven = (num) => num % 2 === 0
+const isEven = num => num % 2 === 0
 
 // Функция, которая генерирует вопрос для игры в четность числа
 const generateQuestionParity = () => {
