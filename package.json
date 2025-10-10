@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "postinstall": "chmod +x bin/*.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ilya Roschikhmarov",
