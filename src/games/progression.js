@@ -28,7 +28,7 @@ const generateQuestionProgression = () => {
   const progressionWithHidden = [...progression]
   progressionWithHidden[skip] = '..'
   // Преобразуем в строку с пробелами
-  const question = progressionWithHidden.join(' ')  
+  const question = progressionWithHidden.join(' ')
   return [question, correctAnswer]
 }
 // Правила игры
