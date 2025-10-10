@@ -16,7 +16,6 @@ const getProgression = (num, difference, len) => {
 
   return progression
 }
-
 // Функция, которая генерирует вопрос к игре арифметическая прогрессия
 const generateQuestionProgression = () => {
   const number = getRandomNumber(50)
@@ -25,14 +24,11 @@ const generateQuestionProgression = () => {
   const difference = getRandomNumber(21, -20)
   const progression = getProgression(number, difference, len)
   const correctAnswer = String(progression[skip])
-  
   // Создаем копию прогрессии и заменяем элемент по индексу
   const progressionWithHidden = [...progression]
   progressionWithHidden[skip] = '..'
-  
   // Преобразуем в строку с пробелами
-  const question = progressionWithHidden.join(' ')
-  
+  const question = progressionWithHidden.join(' ')  
   return [question, correctAnswer]
 }
 // Правила игры
